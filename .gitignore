@@ -1,0 +1,6 @@
+# 내 컴퓨터에서만 쓰는 설정 (저장소에 올리지 않음)
+.claude/
+# 용량 줄이기 전 원본 이미지 (사이트는 images/*.jpg 를 씁니다)
+images/originals/
+Thumbs.db
+desktop.ini

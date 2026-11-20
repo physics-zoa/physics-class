@@ -1,0 +1,23 @@
+/* 사이트 공통 모양 (시안의 <style> 내용을 모은 것) */
+html{scroll-behavior:smooth}
+body{margin:0}
+a{color:#005DAA}a:hover{color:#004A87}
+.nav a{color:#2A2E35;text-decoration:none}
+.nav a:hover{color:#005DAA}
+.nav a.on{color:#005DAA;font-weight:700}
+.quick:hover{background:#004A87 !important}
+.bn:hover{opacity:.85;text-decoration:underline !important}
+summary{cursor:pointer}summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+
+/* 점검·복습 링크 버튼 */
+.lk{display:flex; justify-content:space-between; align-items:center; gap:8px; padding:9px 12px; border:1px solid #B9D3E8; background:#F5F8FB; color:#005DAA; font-weight:700; text-decoration:none; cursor:pointer}
+.lk .n{font-weight:400; font-size:13px; color:#5A606A}
+.lk:hover{background:#E6F1FA !important; border-color:#007DC3 !important}
+
+/* 휴대폰(가로 360px)에서 가로 스크롤이 생기지 않도록 */
+img{max-width:100%}
+.grid-320{grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr)) !important}
+.katex{font-size:1.1em}
+.katex-display{overflow-x:auto; overflow-y:hidden}
+.fm-chip{max-width:100%; overflow-x:auto; overflow-y:hidden}

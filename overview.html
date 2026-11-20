@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>수업 개요</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;family=Noto+Serif+KR:wght@500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="css/site.css">
+<style>
+.uc{background:#FFFFFF; border:1px solid #B9D3E8; padding:18px 20px; display:flex; flex-direction:column; gap:10px}
+.uc .t{font-weight:700; font-size:17px; color:#005DAA}
+.uc .d{font-size:14px; color:#2A2E35}
+.uc .f{font-size:14px; color:#4A5059; border-top:1px solid #E1E7EE; padding-top:8px}
+.uc .f > span:first-child{color:#5A606A}
+.uc .ls{display:flex; flex-direction:column; gap:8px; font-size:15px; padding-top:4px}
+</style>
+<!-- 구글 폼 링크는 data/review-data.js 의 prereq / diag 에서 가져옵니다 -->
+<script defer src="data/review-data.js"></script>
+<script defer src="vendor/katex/katex.min.js"></script>
+<script defer src="vendor/katex/auto-render.min.js"></script>
+<script defer src="js/site.js"></script>
+</head>
+<body>
+<div style="background:#F5F8FB; color:#1F2328; font-family:'Noto Sans KR',sans-serif; line-height:1.7; min-height:100vh">
+
+<div style="height:6px; background:#005DAA"></div>
+<div style="height:3px; background:#13B5EA"></div>
+<div class="nav" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; max-width:1100px; margin:0 auto; padding:20px 24px">
+<a href="index.html" style="font-family:'Noto Serif KR',serif; font-weight:700; font-size:18px; color:#005DAA">안성현의 물리 교실</a>
+<div style="display:flex; gap:8px 24px; flex-wrap:wrap; font-size:15px">
+<a href="index.html#intro">선생님 소개</a>
+<a href="overview.html" class="on">수업 개요</a>
+<a href="overview.html#unitmap">선수 개념 점검</a>
+<a href="review.html">복습하기</a>
+<a href="overview.html#unitmap">학습 개념 점검</a>
+<a href="ask.html">질문 창구</a>
+</div>
+</div>
+
+<div id="overview" style="max-width:1100px; margin:24px auto 0; padding:0 24px">
+<div style="background:#007DC3; color:#FFFFFF; padding:32px clamp(20px,4vw,40px)">
+<div style="font-size:15px; margin-bottom:4px">수업 개요</div>
+<div style="font-family:'Noto Serif KR',serif; font-weight:700; font-size:clamp(24px,6vw,32px); line-height:1.4">2학년 2학기 · 역학과 에너지</div>
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr)); gap:12px 32px; margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.45)">
+<a class="bn" href="#unit-I" style="display:block; color:#FFFFFF; text-decoration:none"><div style="font-weight:700; font-size:16px"><span style="display:inline-block; width:12px; height:12px; background:#005DAA; border:2px solid #FFFFFF; margin-right:8px; vertical-align:-1px"></span>I. 시공간과 운동</div><div style="font-size:15px; margin-top:2px">운동의 원인을 수식으로 풀고, 중력과 시공간까지 확장합니다.</div></a>
+<a class="bn" href="#unit-II" style="display:block; color:#FFFFFF; text-decoration:none"><div style="font-weight:700; font-size:16px"><span style="display:inline-block; width:12px; height:12px; background:#13B5EA; border:2px solid #FFFFFF; margin-right:8px; vertical-align:-1px"></span>II. 열과 에너지</div><div style="font-size:15px; margin-top:2px">눈에 보이지 않는 분자의 운동으로 열과 일을 설명합니다.</div></a>
+<a class="bn" href="#unit-III" style="display:block; color:#FFFFFF; text-decoration:none"><div style="font-weight:700; font-size:16px"><span style="display:inline-block; width:12px; height:12px; background:#007DC3; border:2px solid #FFFFFF; margin-right:8px; vertical-align:-1px"></span>III. 탄성파와 소리</div><div style="font-size:15px; margin-top:2px">진동이 파동으로 퍼지고 겹치며 소리가 되는 과정을 다룹니다.</div></a>
+</div>
+</div>
+</div>
+
+<div id="unitmap" style="max-width:1100px; margin:48px auto 0; padding:0 24px; scroll-margin-top:16px">
+<h2 style="font-family:'Noto Serif KR',serif; font-weight:700; font-size:26px; margin:0 0 4px; color:#005DAA">단원 지도</h2>
+<p style="margin:0 0 8px; font-size:15px; color:#4A5059">소단원마다 선수 개념 점검(3문항), 복습 카드, 학습 개념 점검(9문항)으로 연결됩니다.</p>
+<p style="margin:0 0 8px; font-size:14px; color:#4A5059">점검 폼은 학번과 이름, 이메일을 입력하며, 결과는 입력한 이메일로 전송됩니다. 성적에 반영되지 않습니다.</p>
+</div>
+
+<!-- ───────── I. 시공간과 운동 ───────── -->
+<div style="background:#B8D0E8; border-top:4px solid #005DAA; margin-top:24px; padding:28px 0 32px"><div style="max-width:1100px; margin:0 auto; padding:0 24px">
+<h3 id="unit-I" style="font-size:22px; margin:0 0 8px; border-left:6px solid #005DAA; padding-left:12px; scroll-margin-top:16px">I. 시공간과 운동</h3>
+<p style="margin:0 0 6px; font-size:15px; color:#1F2328"><span style="font-weight:700; color:#005DAA">학습목표</span>  뉴턴 운동 법칙과 역학적 에너지 보존으로 포물선 운동, 원운동, 인공위성의 운동을 설명하고 예측할 수 있습니다.</p>
+<p style="margin:0 0 14px; font-size:14px; color:#4A5059"><span style="font-weight:700; color:#005DAA">시작 전에 알아 두면 좋은 것</span>  속력·속도·가속도, 등가속도 직선 운동의 식, 힘과 가속도의 관계($F = ma$), 벡터, 일·운동 에너지·위치 에너지</p>
+<div class="grid-320" style="display:grid; gap:16px">
+
+<div class="uc"><div class="t">01 힘과 운동</div>
+<div class="d">마찰력·수직 항력·장력, 힘의 합성과 분해, 알짜힘과 물체의 운동</div>
+<div class="f"><span>공식 </span>$F = ma$, &nbsp;$f = \mu N$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="I-01"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-I-01"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="I-01"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">02 포물선 운동</div>
+<div class="d">수평으로 던진 물체와 비스듬히 던진 물체, 포물선 운동에서의 역학적 에너지 보존</div>
+<div class="f"><span>공식 </span>$x = v_0 t$, &nbsp;$y = \dfrac{1}{2}gt^2$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="I-02"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-I-02"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="I-02"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">03 원운동</div>
+<div class="d">등속 원운동, 각속도, 구심 가속도와 구심력</div>
+<div class="f"><span>공식 </span>$a = \dfrac{v^2}{r}$, &nbsp;$F = \dfrac{mv^2}{r}$, &nbsp;$v = r\omega$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="I-03"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-I-03"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="I-03"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">04 천체의 운동과 중력</div>
+<div class="d">케플러 법칙, 뉴턴의 중력 법칙, 인공위성의 운동, 탈출 속도</div>
+<div class="f"><span>공식 </span>$F = \dfrac{GMm}{r^2}$, &nbsp;$v = \sqrt{\dfrac{2GM}{R}}$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="I-04"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-I-04"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="I-04"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">05 일반 상대성 이론</div>
+<div class="d">가속 좌표계와 관성력, 등가 원리, 시공간의 휘어짐, 중력 렌즈, 블랙홀과 중력 시간 지연</div>
+<div class="f"><span>공식 </span>공식보다 개념 중심</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="I-05"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-I-05"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="I-05"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+</div>
+</div></div>
+
+<!-- ───────── II. 열과 에너지 ───────── -->
+<div style="background:#BDEBFA; border-top:4px solid #13B5EA; margin-top:0px; padding:28px 0 32px"><div style="max-width:1100px; margin:0 auto; padding:0 24px">
+<h3 id="unit-II" style="font-size:22px; margin:0 0 8px; border-left:6px solid #13B5EA; padding-left:12px; scroll-margin-top:16px">II. 열과 에너지</h3>
+<p style="margin:0 0 6px; font-size:15px; color:#1F2328"><span style="font-weight:700; color:#005DAA">학습목표</span>  열역학 제1법칙과 제2법칙으로 열기관의 효율과 자연 현상이 일어나는 방향을 설명할 수 있습니다.</p>
+<p style="margin:0 0 14px; font-size:14px; color:#4A5059"><span style="font-weight:700; color:#005DAA">시작 전에 알아 두면 좋은 것</span>  온도와 열의 차이, 열평형, 물질을 이루는 입자의 운동, 압력, 에너지 보존</p>
+<div class="grid-320" style="display:grid; gap:16px">
+
+<div class="uc"><div class="t">01 열과 우리 생활</div>
+<div class="d">열의 이동(전도·대류·복사), 단열, 열팽창</div>
+<div class="f"><span>공식 </span>$Q = cm\Delta T$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="II-01"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-II-01"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="II-01"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">02 이상 기체 법칙</div>
+<div class="d">열량·비열·잠열(상태 변화), 보일 법칙, 샤를 법칙, 이상 기체 법칙</div>
+<div class="f"><span>공식 </span>$PV = nRT$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="II-02"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-II-02"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="II-02"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">03 열역학 제1법칙</div>
+<div class="d">내부 에너지, 열역학 제1법칙, 등적·등압·등온·단열 과정</div>
+<div class="f"><span>공식 </span>$Q = \Delta U + W$, &nbsp;$W = P\Delta V$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="II-03"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-II-03"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="II-03"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">04 열기관과 열효율</div>
+<div class="d">열기관(외연·내연 기관), 스털링·가솔린·디젤 기관의 순환 과정, 열효율</div>
+<div class="f"><span>공식 </span>$e = \dfrac{W}{Q_H}$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="II-04"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-II-04"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="II-04"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">05 열역학 제2법칙</div>
+<div class="d">비가역 현상, 엔트로피, 열역학 제2법칙</div>
+<div class="f"><span>공식 </span>공식보다 개념 중심</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="II-05"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-II-05"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="II-05"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+</div>
+</div></div>
+
+<!-- ───────── III. 탄성파와 소리 ───────── -->
+<div style="background:#D3E7F6; border-top:4px solid #007DC3; margin-top:0px; padding:28px 0 32px"><div style="max-width:1100px; margin:0 auto; padding:0 24px">
+<h3 id="unit-III" style="font-size:22px; margin:0 0 8px; border-left:6px solid #007DC3; padding-left:12px; scroll-margin-top:16px">III. 탄성파와 소리</h3>
+<p style="margin:0 0 6px; font-size:15px; color:#1F2328"><span style="font-weight:700; color:#005DAA">학습목표</span>  단진동과 파동의 성질로 도플러 효과, 소리의 간섭, 악기의 정상파를 설명할 수 있습니다.</p>
+<p style="margin:0 0 14px; font-size:14px; color:#4A5059"><span style="font-weight:700; color:#005DAA">시작 전에 알아 두면 좋은 것</span>  파동의 요소(진폭·파장·주기·진동수), 파동의 속력 $v = f\lambda$, 훅의 법칙, 소리는 파동이라는 것</p>
+<div class="grid-320" style="display:grid; gap:16px">
+
+<div class="uc"><div class="t">01 단진동</div>
+<div class="d">용수철 진자, 훅의 법칙, 단진동에서 가속도와 변위의 관계</div>
+<div class="f"><span>공식 </span>$F = -kx$, &nbsp;$T = 2\pi\sqrt{\dfrac{m}{k}}$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="III-01"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-III-01"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="III-01"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">02 탄성파의 진행과 활용</div>
+<div class="d">탄성파(횡파·종파), 고정단·자유단 반사, 반사와 투과, 탄성파의 활용</div>
+<div class="f"><span>공식 </span>$v = f\lambda$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="III-02"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-III-02"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="III-02"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">03 도플러 효과</div>
+<div class="d">음원이나 관찰자가 움직일 때 진동수 변화</div>
+<div class="f"><span>공식 </span>$f' = f\,\dfrac{v \pm v_{\text{관찰자}}}{v \mp v_{\text{음원}}}$</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="III-03"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-III-03"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="III-03"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">04 소리의 간섭</div>
+<div class="d">보강 간섭과 상쇄 간섭, 경로차, 소음 제거</div>
+<div class="f"><span>공식 </span>경로차 = $m\lambda$(보강),  $\left(m+\dfrac{1}{2}\right)\lambda$(상쇄)</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="III-04"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-III-04"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="III-04"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+<div class="uc"><div class="t">05 정상파</div>
+<div class="d">현악기와 관악기의 정상파</div>
+<div class="f"><span>공식 </span>$f_n = \dfrac{nv}{2L}$ (양 끝 고정인 현)</div>
+<div class="ls"><a class="lk" data-form="prereq" data-code="III-05"><span>선수 개념 점검</span><span class="n">3문항</span></a><a class="lk" href="review.html#review-III-05"><span>복습 카드</span></a><a class="lk" data-form="diag" data-code="III-05"><span>학습 개념 점검</span><span class="n">9문항</span></a></div></div>
+
+</div>
+</div></div>
+
+<div style="max-width:1100px; margin:48px auto 0; padding:24px 24px 48px; border-top:1px solid #D5D8DD; font-size:14px; color:#5A606A; display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between">
+<div>안성현 · 청원고등학교 물리</div>
+<div>인스타그램 DM: physics_zoa</div>
+</div>
+
+</div>
+</body>
+</html>

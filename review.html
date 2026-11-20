@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>복습하기</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&amp;family=Noto+Serif+KR:wght@500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<link rel="stylesheet" href="css/site.css">
+<!-- 카드 내용: data/review-data.js / 카드 모양: js/review.js -->
+<script defer src="data/review-data.js"></script>
+<script defer src="js/review.js"></script>
+<script defer src="vendor/katex/katex.min.js"></script>
+<script defer src="vendor/katex/auto-render.min.js"></script>
+<script defer src="js/site.js"></script>
+</head>
+<body>
+<div style="background:#F5F8FB; color:#1F2328; font-family:'Noto Sans KR',sans-serif; line-height:1.7; min-height:100vh">
+
+<div style="height:6px; background:#005DAA"></div>
+<div style="height:3px; background:#13B5EA"></div>
+<div class="nav" style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; max-width:1100px; margin:0 auto; padding:20px 24px">
+<a href="index.html" style="font-family:'Noto Serif KR',serif; font-weight:700; font-size:18px; color:#005DAA">안성현의 물리 교실</a>
+<div style="display:flex; gap:8px 24px; flex-wrap:wrap; font-size:15px">
+<a href="index.html#intro">선생님 소개</a>
+<a href="overview.html">수업 개요</a>
+<a href="overview.html#unitmap">선수 개념 점검</a>
+<a href="review.html" class="on">복습하기</a>
+<a href="overview.html#unitmap">학습 개념 점검</a>
+<a href="ask.html">질문 창구</a>
+</div>
+</div>
+
+<div id="review" style="max-width:1100px; margin:24px auto 0; padding:0 24px">
+<div style="background:#007DC3; color:#FFFFFF; padding:32px clamp(20px,4vw,40px)">
+<div style="font-size:15px; margin-bottom:4px">복습하기</div>
+<div style="font-family:'Noto Serif KR',serif; font-weight:700; font-size:clamp(24px,6vw,32px); line-height:1.4">소단원별 핵심 개념과 주요 공식</div>
+<div style="font-size:15px; margin-top:8px">수업 전후에 카드를 눌러 펼쳐 보세요. 카드 아래에서 바로 점검 문항으로 이동할 수 있습니다.</div>
+<div id="review-banner" style="display:flex; flex-wrap:wrap; gap:8px 28px; margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.45)"></div>
+</div></div>
+
+<!-- 대단원 띠와 복습 카드 15개가 여기에 그려집니다 -->
+<div id="review-bands"></div>
+
+<div style="max-width:1100px; margin:48px auto 0; padding:24px 24px 48px; border-top:1px solid #D5D8DD; font-size:14px; color:#5A606A; display:flex; flex-wrap:wrap; gap:8px 24px; justify-content:space-between">
+<div>안성현 · 청원고등학교 물리</div>
+<div>인스타그램 DM: physics_zoa</div>
+</div>
+
+</div>
+</body>
+</html>
